@@ -5,3 +5,4 @@ class MyPermission(BasePermission):
         if request.method=='POST':
             return True
         return False
+    
